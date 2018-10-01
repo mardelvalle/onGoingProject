@@ -1,0 +1,24 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "aframe": "^0.8.2",
+    "express": "^4.16.3",
+    "install": "^0.12.1",
+    "lodash": "^4.17.11",
+    "npm": "^6.4.1",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack src/index.js dist/main.js",
+    "build:prod": "webpack src/index.js dist/main.js -p"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
